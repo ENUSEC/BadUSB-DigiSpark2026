@@ -1,0 +1,8 @@
+node_modules/
+*.log
+runs/
+
+# Build output. Regenerate with tools/build.sh; hex files are not worth
+# version-controlling and a stale .hex is genuinely dangerous here - flashing
+# the wrong one to a device is the whole exercise.
+.build/
